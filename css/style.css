@@ -1,8 +1,36 @@
-.paw {
+
+.navbar {
+    padding: 0 0 7.5rem;
+}
+
+/* .paw {
     background-color: grey;
+} */
+
+body {
+    background-color: rgb(246, 129, 246);
 }
 
 .paw-img {
-    width: 110px;
-    padding-left: 30%;
+    width: 70px;
+    padding: 0 5px;
+}
+
+.mbar {
+    padding: 0 10px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+#heading {
+    font-family: 'Mochiy Pop One', sans-serif;
+    word-spacing: 12px;
+    color: rgb(129, 18, 107);
+    padding-top: 75px;
+}
+
+#logo-img {
+    width: 450px;
+    transform: rotate(30deg);
+    border-style: solid;
 }
