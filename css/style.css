@@ -1,14 +1,18 @@
 
 .navbar {
-    padding: 0 0 7.5rem;
+    padding: 0 0 1.5rem;
 }
 
-/* .paw {
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.paw {
     background-color: grey;
-} */
+}
 
 body {
-    background-color: rgb(246, 129, 246);
+    background-color: rgb(255, 255, 255);
 }
 
 .paw-img {
@@ -20,17 +24,41 @@ body {
     padding: 0 10px;
     font-family: 'Montserrat';
     font-size: 20px;
+    counter-reset: #000;
 }
 
-#heading {
-    font-family: 'Mochiy Pop One', sans-serif;
-    word-spacing: 12px;
-    color: rgb(129, 18, 107);
-    padding-top: 75px;
+#chirp-meow {
+    width: 99%;
 }
 
-#logo-img {
-    width: 450px;
-    transform: rotate(30deg);
-    border-style: solid;
+h3 {
+    font-family: 'Sacramento';
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.feature-box {
+   padding: 20px 90px ;
+}
+
+.feature-box-m {
+    padding: 20px 41px ;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
