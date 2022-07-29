@@ -1,3 +1,4 @@
+/* Navbar-Section */
 
 .navbar {
     padding: 0 0 1.5rem;
@@ -31,15 +32,22 @@ body {
     width: 99%;
 }
 
+h2 {
+    font-family: 'Mochiy Pop One';
+    font-size: 2rem;
+}
+
 h3 {
     font-family: 'Sacramento';
     font-weight: bold;
     font-size: 2rem;
 }
 
-p{
+p {
     color: #8f8f8f;
 }
+
+/* Features-Section */
 
 #features {
     padding: 7% 15%;
@@ -47,11 +55,11 @@ p{
 }
 
 .feature-box {
-   padding: 20px 90px ;
+    padding: 20px 90px;
 }
 
 .feature-box-m {
-    padding: 20px 41px ;
+    padding: 20px 41px;
 }
 
 .icon {
@@ -61,4 +69,109 @@ p{
 
 .icon:hover {
     color: #ff4c68;
+}
+
+/* Testomonial-Section */
+
+#testimonials {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+.a {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.b {
+    width: 20%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.c {
+    width: 17%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.d {
+    width: 20%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.e {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* carousels */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.c-strays {
+    color: #fff;
+    font-family: 'Sacramento';
+    font-size: 4.1rem;
+}
+
+/* account */
+
+
+#account {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/353/676/856/movie-bolt-bolt-character-wallpaper-preview.jpg');
+    padding: 20px;
+}
+
+/* footer  */
+
+#footer {
+    text-align: center;
+}
+
+#git {
+    margin: 20px 0px 50px 0px;
+}
+.btn {
+    border-style: solid;
+    border-color: #000;
+}
+
+.contact-btn {
+    margin: 50px 0px ;
+}
+
+.btn:hover {
+    background: #cb38f0;
+    background-image: -webkit-linear-gradient(top, #cb38f0, #f2f2f2);
+    background-image: -moz-linear-gradient(top, #cb38f0, #f2f2f2);
+    background-image: -ms-linear-gradient(top, #cb38f0, #f2f2f2);
+    background-image: -o-linear-gradient(top, #cb38f0, #f2f2f2);
+    background-image: linear-gradient(to bottom, #cb38f0, #f2f2f2);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #55bdbd;
+    padding: 7% 15%;
+}
+
+.footer-link  {
+    color: #0c8b90;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: .75rem;
 }
