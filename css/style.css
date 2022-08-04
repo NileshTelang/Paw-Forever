@@ -43,6 +43,15 @@ h3 {
     font-size: 2rem;
 }
 
+@media (max-width:900px) {
+    h3 {
+        font-family: 'Sacramento';
+        font-weight: bold;
+        font-size: 2rem;
+        color: rgb(255, 1, 1);
+    }
+}
+
 p {
     color: #8f8f8f;
 }
@@ -123,6 +132,11 @@ p {
 
 /* account */
 
+#p {
+    font-family: 'Mochiy Pop One';
+    font-size: 2rem;
+    color: #fff;
+}
 
 #account {
     background-image: url('https://c4.wallpaperflare.com/wallpaper/353/676/856/movie-bolt-bolt-character-wallpaper-preview.jpg');
